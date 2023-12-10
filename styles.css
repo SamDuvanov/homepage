@@ -278,3 +278,25 @@
   .hobbies__content {
     margin-left: 30px;
   }
+
+  /* Likes and dislikes info styles */
+  .likes_and_dislikes__header {
+    margin-bottom: 20px;
+  }
+
+  .likes_and_dislikes__content {
+    display: flex;
+    justify-content: left;
+  }
+
+  .likes__content, .dislikes__content {
+    margin-left: 30px;
+  }
+
+  .likes__content ul {
+    list-style-type: "+ ";
+  }
+
+  .dislikes__content ul {
+    list-style-type: "- ";
+  }
