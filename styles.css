@@ -270,3 +270,11 @@
     color: var(--secondary-text-color);
   }
   
+  /* Hobbies info styles */
+  .hobbies__header {
+    margin-bottom: 20px;
+  }
+
+  .hobbies__content {
+    margin-left: 30px;
+  }
