@@ -13,8 +13,8 @@
     --secondary-text-color: #5c5c62;
     --durability-text-color: #6a737d9c;
     --icon-color: #6a737d;
-    --border-color: #ff9a0045;
-    --text-decoration-color: #ff9a00;
+    --border-color: #59924d;
+    --text-decoration-color: #499638;
   }
   
   .container {
@@ -22,11 +22,21 @@
     padding: 0 30px;
     max-width: 900px;
   }
+
+  .avatar {
+    margin-right: 40px;
+  }
   
   .fh {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .fhl {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
   }
   
   .fv {
@@ -69,11 +79,6 @@
   }
 
 /* Contact info styles */
-.contact-info__header,
-.contact-info__sub-header {
-  text-align: center;
-}
-
 .contact-info__header {
   color: var(--primary-text-color);
   margin-bottom: 15px;
@@ -265,3 +270,33 @@
     color: var(--secondary-text-color);
   }
   
+  /* Hobbies info styles */
+  .hobbies__header {
+    margin-bottom: 20px;
+  }
+
+  .hobbies__content {
+    margin-left: 30px;
+  }
+
+  /* Likes and dislikes info styles */
+  .likes_and_dislikes__header {
+    margin-bottom: 20px;
+  }
+
+  .likes_and_dislikes__content {
+    display: flex;
+    justify-content: left;
+  }
+
+  .likes__content, .dislikes__content {
+    margin-left: 30px;
+  }
+
+  .likes__content ul {
+    list-style-type: "+ ";
+  }
+
+  .dislikes__content ul {
+    list-style-type: "- ";
+  }
